@@ -13,10 +13,8 @@
 
 Decentralized Bounty dApp will recognize the users current account if Metamask is an active browser extension, the user has the option to create a profile, while this method has a transaction cost the user profile will have an added layer of authentication. If the user registration was successful a pop up confirming the transaction is shown. 
 
-Contract feautures, the user can post a bounty titje and price, a bounty ninja can present a solution to the bounty, the user who created the bounty can approve the bounty and release the funds.
+Contract feautures, the user can post a bounty title and price, a bounty ninja can present a solution to the bounty, the user who created the bounty can approve the bounty and release the funds.
 
-
-The arbitration process happens by randomly selecting and arbitrator from a pre-approved list, using an api call made by Oraclize, and enabling them to settle the dispute.
 
 ## Development setup
 
@@ -71,4 +69,5 @@ truffle tests
 ```
 
 ## Acknowledgements
-The front end functionality of the create a bounty is still ina
+
+The arbitration process happens by randomly selecting and arbitrator from a pre-approved list, using an api call made by Oraclize, and enabling them to settle the dispute.
