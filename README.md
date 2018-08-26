@@ -1,6 +1,6 @@
 <h1 align="center">
 	<img
-		width="500"
+		width="800"
 		alt="Bounty dApp"
 		src="https://gallery.mailchimp.com/fee238bfe84b47c290a863338/images/aae86589-a5eb-451a-a87c-dc2ccf6f6bd6.png">
 </h1>
@@ -56,7 +56,7 @@ If the installation was successful you should see the homepage on the dApp in ad
 
 <h1 align="center">
 	<img
-		width="500"
+		width="800"
 		alt="Bounty dApp"
 		src="https://gallery.mailchimp.com/fee238bfe84b47c290a863338/images/5fd2a0f9-5f10-43f3-a325-83115f8b00e1.png">
 </h1>
