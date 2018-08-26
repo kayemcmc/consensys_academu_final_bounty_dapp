@@ -2,7 +2,7 @@
 	<img
 		width="800"
 		alt="Bounty dApp"
-		src="https://gallery.mailchimp.com/fee238bfe84b47c290a863338/images/aae86589-a5eb-451a-a87c-dc2ccf6f6bd6.png">
+		src="https://gallery.mailchimp.com/fee238bfe84b47c290a863338/images/c6a9c0e3-597e-4087-ba5c-381acf728271.png">
 </h1>
 
 <h3 align="center">
