@@ -1,0 +1,23 @@
+pragma solidity ^0.4.2;
+
+import "truffle/Assert.sol";
+import "../contracts/Bounties.sol";
+
+//unit test for creating a bounty whose expectedId equals 1
+
+contract TestBounties {
+  Bounties bounties;
+
+  function TestBount() public {
+    bounties = new Bounties();
+    bounties.setControllerAddress(this);
+  }
+
+  function testCreateBounty() public{
+    uint _userId = 1;
+    uint _expectedBountyId = 1;
+  } 
+  
+    Assert.equal(bounties.createBounty("Hello world!", 1, _userId), _expectedBountyId, "Should create bounty with ID 1");
+  }
+}
