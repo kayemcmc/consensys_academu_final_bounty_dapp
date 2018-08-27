@@ -11,7 +11,7 @@
 
 ## Background
 
-Decentralized Bounty dApp will recognize the users current account if Metamask is an active browser extension, the user has the option to create a profile, while this method has a transaction cost the user profile will have an added layer of authentication. If the user registration was successful a pop up confirming the transaction is shown. 
+Decentralized Bounty dApp will recognize the users current account if Metamask activated in the broser, the user has the option to create a profile, while this method has a transaction cost the user profile will have an added layer of authentication. If the user registration was successful a pop up confirming the transaction is shown. 
 
 Contract feautures, the user can post a bounty title and price, a bounty ninja can present a solution to the bounty, the user who created the bounty can approve the bounty and release the funds.
 
@@ -69,5 +69,7 @@ truffle tests
 ```
 
 ## Acknowledgements
+The front end needs more love, the bounty form can fetch bounty's but the create bounty button is not calling the solidity function correctly, I plan to fix this after grading, and the available bounties need to be wired in the bounties view.
+
 
 
