@@ -30,3 +30,5 @@ Implemented a setControllerAddress function, so only the owner of the profile is
   
 ```
   
+Implemented a Circuit Breaker  
+In emergency, Circuit Breaker will work and All the functions stopped.
