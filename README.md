@@ -19,8 +19,8 @@ Contract feautures, the user can post a bounty title and price, a bounty ninja c
 ## Development setup
 
 ```
-git clone http://github.com/
-cd 
+git clone https://github.com/kayemcmc/consensys_academu_final_bounty_dapp
+cd consensys_academu_final_bounty_dapp
 npm install
 ```
 ### Prerequisites
@@ -36,7 +36,7 @@ If Ganache is using another port, click on the settings button on the top right,
 
 
 ```
-cd 
+cd consensys_academu_final_bounty_dapp
 truffle compile
 truffle migrate
 ```
@@ -70,4 +70,4 @@ truffle tests
 
 ## Acknowledgements
 
-The arbitration process happens by randomly selecting and arbitrator from a pre-approved list, using an api call made by Oraclize, and enabling them to settle the dispute.
+
