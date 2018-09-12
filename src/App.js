@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 import { Layout, Menu, Icon, Button } from "antd";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { storeWeb3Account } from "./actions";
+import { storeWeb3Account, instantiateProfileContract } from "./actions";
 
 import HomeDashboard from "./components/HomeDashboard";
 //import Profile from './components/Profile';
@@ -31,20 +31,21 @@ class App extends Component {
     };
   }
 
-  async componentWillMount() {
-    // Get network provider and web3 instance.
-    // See utils/getWeb3 for more info.
-    try {
-      const results = await getWeb3;
-      this.setState({ web3: results.web3 });
-      this.instantiateContract();
-    } catch (e) {
-      console.error(e);
-    }
-  }
+  // async componentWillMount() {
+  //   // Get network provider and web3 instance.
+  //   // See utils/getWeb3 for more info.
+  //   try {
+  //     const results = await getWeb3;
+  //     this.setState({ web3: results.web3 });
+  //     this.instantiateContract();
+  //   } catch (e) {
+  //     console.error(e);
+  //   }
+  // }
 
   componentDidMount() {
     this.props.storeWeb3Account();
+    this.props.instantiateProfileContract();
   }
 
   async instantiateContract() {
@@ -186,14 +187,16 @@ class App extends Component {
 const mapDispatchToProps = dispatch =>
   bindActionCreators(
     {
-      storeWeb3Account
+      storeWeb3Account,
+      instantiateProfileContract
     },
     dispatch
   );
 
 const mapStateToProps = state => {
   return {
-    account: state.bounty.account
+    account: state.bounty.account,
+    contracts: state.bounty.contracts
   };
 };
 
